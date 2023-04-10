@@ -43,7 +43,7 @@ To fork this project, click the "Fork" button in the top-right corner of the Git
 git checkout -b my-new-branch
 ```
 > **Note for contributers (SRILab Team members):** <br />
-For initial test code, we can just commit to ```main``` with .ipynb files named after each team member.
+For initial test code, we can just commit directly to the ```main``` branch with .ipynb files named after each team member.
 3. Make your changes and commit them:
 ```
 git commit -am 'Add new feature'
