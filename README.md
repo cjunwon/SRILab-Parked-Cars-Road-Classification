@@ -2,8 +2,9 @@
  
 ## Prerequisites
 Before you can run this project, you need to have the following installed on your machine:
-- Python 3.9 or later
 - Git
+- Python 3.10
+- **'pipenv'** package manager
 
 ## Installation
 
@@ -14,22 +15,26 @@ To install this project, follow these steps:
 git clone https://github.com/yourusername/my-python-project.git
 ```
 
-2. Create and activate a virtual environment:
-```
-python -m venv venv
+2. Navigate to the project directory
 
-source venv/bin/activate # for Linux/macOS
-venv\Scripts\activate.bat # for Windows
+```
+cd SRILab-Parked-Cars-Road-Classification
 ```
 
-3. Install the required packages:
+3. Install pipenv:
+
 ```
-pip install -r requirements.txt
+pip install pipenv
 ```
-> **Note for contributers (SRILab Team members):** <br />
-After you ```pip install``` any new packages, run the following line:
+
+4. Install required packages:
 ```
-pip freeze > requirements.txt
+pipenv install
+```
+
+5. Activate the virtual environment:
+```
+pipenv shell
 ```
 
 ## Contributing
@@ -47,12 +52,40 @@ git checkout -b my-new-branch
 > **Note for contributers (SRILab Team members):** <br />
 For initial test code, we can just commit directly to the ```main``` branch with .ipynb files named after each team member.
 
-3. Make your changes and commit them:
+3. Navigate to the project directory
+
 ```
-git commit -am 'Add new feature'
+cd SRILab-Parked-Cars-Road-Classification
 ```
-4. Push your changes to your fork:
+
+4. Install pipenv:
+
+```
+pip install pipenv
+```
+
+5. Install required packages:
+```
+pipenv install
+```
+
+6. Activate the virtual environment:
+```
+pipenv shell
+```
+
+> **Note for contributers (SRILab Team members):** <br />
+Make sure to run **'pipenv lock'** after you **'pipenv install'** any new packages.
+
+7. Make your changes and commit them:
+```
+git commit -m 'Add new feature'
+```
+8. Push your changes to your fork:
 ```
 git push origin my-new-feature
 ```
-5. Create a pull request.
+9. Create a pull request.
+
+> **Note for contributers (SRILab Team members):** <br />
+If you are working with an **ipynb** file, make sure the kernal is set to the project's pipenv.
