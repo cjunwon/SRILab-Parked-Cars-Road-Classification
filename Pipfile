@@ -12,6 +12,7 @@ ipykernel = "*"
 open3d = "*"
 plyfile = "*"
 torch = "*"
+torchvision = "*"
 
 [dev-packages]
 
