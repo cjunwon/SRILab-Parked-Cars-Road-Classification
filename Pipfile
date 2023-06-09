@@ -13,6 +13,7 @@ open3d = "*"
 plyfile = "*"
 torch = "*"
 torchvision = "*"
+av = "*"
 
 [dev-packages]
 
