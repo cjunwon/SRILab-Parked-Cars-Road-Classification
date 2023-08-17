@@ -12,7 +12,7 @@ To install this project, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/my-python-project.git
+git clone https://github.com/cjunwon/SRILab-Parked-Cars-Road-Classification
 ```
 
 2. Navigate to the project directory
